@@ -1,0 +1,1 @@
+const express = require('express'); const app = express(); const PORT = 3000; // Hard-coded PORT app.use(express.json()); // Middleware to parse JSON bodies app.listen(PORT, () => { console.log(`Server running on port ${PORT}`); });
